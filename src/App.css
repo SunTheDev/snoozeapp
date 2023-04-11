@@ -1,0 +1,31 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+.bg-background {
+  background-image: url("https://blog.thefabulous.co/wp-content/uploads/2018/10/img_premium_dialog_white_bg-1060x718.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sheepImg {
+  height: 300px;
+  width: 300px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
